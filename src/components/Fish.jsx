@@ -1,9 +1,10 @@
 import React from 'react'
 
-function Fish({fishes}) {
+function Fish({fish}) {
   return (
-    <div>
-      
+    <div id='fishCard'>
+      <img src={fish?.icon_uri} alt="fish" />
+      <p className='fish'>{fish?.name['name-USen']}</p>
     </div>
   )
 }

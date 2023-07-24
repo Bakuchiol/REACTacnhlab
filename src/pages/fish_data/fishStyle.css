@@ -1,0 +1,26 @@
+#fishWrap{
+    padding-top: 100px;
+}
+#fishData{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#fishCard{
+    border: .5px solid lightslategray;
+    width: 200px;
+    height: 200px;
+}
+#quoteBox{
+    display: flex;
+    justify-content: center;
+}
+.quote {
+    font-style: italic;
+    position: relative;
+    margin-top: -100px;
+    width: 500px;
+}
+.blathers {
+    font-weight: bold;
+}
