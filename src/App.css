@@ -23,7 +23,7 @@
 .navUl {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 10px;
   list-style: none;
 }
 .navUl a{
@@ -33,13 +33,22 @@
   font-size: 18px;
   font-weight: bold;
 }
+.navIcon {
+  height: 60px;
+}
 
 /* HOME PAGE */
 #homeWrap {
   padding-top: 100px;
 }
+#homeComp{
+  background-color: #f8eebc;
+}
 
 /* NOOK SHOPPING */
 #nookWrap {
   padding-top: 100px;
+}
+a {
+  text-decoration: none;
 }

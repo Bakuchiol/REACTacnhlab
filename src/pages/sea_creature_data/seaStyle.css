@@ -1,0 +1,34 @@
+#seaComp{
+    border: .5px solid lightslategray;
+    padding-top: 20px;
+    width: 150px;
+    height: 150px;
+}
+/* sea list */
+#seaWrapper{
+    background-color: #f8eebc;
+    padding: 100px 0 50px 0;
+}
+#seaCard {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* name */
+/* .seaCreature{
+    color: #f8eebc;
+}
+.seaCreature:hover{
+    color: black;
+} */
+
+#testWrap{
+    border: solid royalblue;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-top: -20px;
+}
+#testWrap:hover{
+}

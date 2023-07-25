@@ -41,7 +41,6 @@ function getBugInfo(bugID){
     .then(response => response.json())
 }
 
-
 // sea creature data
 function getSeaCreature(){
     return fetch(`${baseUrl}/sea`)
@@ -72,6 +71,8 @@ export{
     getFishInfo,
     getBugs,
     getBugInfo,
+    getSeaCreature,
+    getSeaCreatureInfo,
     shopSearch
 }
 
