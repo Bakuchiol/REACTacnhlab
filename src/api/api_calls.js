@@ -17,20 +17,66 @@ const baseUrl = 'https://acnhapi.com/v1a'
 // }
 
 
-
 // fish data
 function getFish(){
     return fetch(`${baseUrl}/fish`)
     .then(response => response.json())
 }
 
-// bugs info
+// fish info
 function getFishInfo(fishID){
     return fetch(`${baseUrl}/fish/${fishID}`)
     .then(response => response.json())
 }
 
+// bug data
+function getBugs(){
+    return fetch(`${baseUrl}/bugs`)
+    .then(response => response.json())
+}
+
+// bugs info
+function getBugInfo(bugID){
+    return fetch(`${baseUrl}/bugs/${bugID}`)
+    .then(response => response.json())
+}
+
+
+// sea creature data
+function getSeaCreature(){
+    return fetch(`${baseUrl}/sea`)
+    .then(response => response.json())
+}
+
+// sea creature info
+function getSeaCreatureInfo(seaID){
+    return fetch(`${baseUrl}/sea/${seaID}`)
+    .then(response => response.json())
+}
+
+
+
+
+// --------------------------------------------------------
+// furniture
+function shopSearch(searchData){
+    return fetch(`${baseUrl}/fish/${searchData.query}`)
+    .then(response => {response.json()
+        console.log(`${baseUrl}/fish/${searchData}`)
+    })
+}
+
+
 export{
     getFish,
-    getFishInfo
+    getFishInfo,
+    getBugs,
+    getBugInfo,
+    shopSearch
 }
+
+// DnD
+// export async function shopSearch(searchData){
+//     const res = await fetch(`https://www.dnd5eapi.co/api/spells/?name=${searchData.query}`)
+//     return res.json()
+// }

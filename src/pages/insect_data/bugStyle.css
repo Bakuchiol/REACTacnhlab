@@ -1,0 +1,41 @@
+#bugInfo {
+    background-color: #f8eebc;
+    padding-bottom: 200px;
+}
+#bugWrap{
+    background-color: #f8eebc;
+    padding-top: 100px;
+}
+#bugComp {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#bugCard{
+    border: .5px solid lightslategray;
+    width: 200px;
+    height: 200px;
+}
+
+.blathers {
+    border: solid black;
+    position: inherit;
+    margin-top: -50px;
+    justify-content: center;
+    width: 500px;
+}
+#bugWrapper {
+    /* border: solid green; */
+    display: flex;
+    justify-content: center;
+    margin-top: -60px;
+}
+.bugPhrase {
+    /* border: solid crimson; */
+    width: 400px;
+    font-style: italic;
+}
+#Blathers{
+    /* border: solid black; */
+    font-weight: bold;
+}

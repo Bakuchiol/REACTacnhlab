@@ -31,7 +31,7 @@ function FishInfo() {
                     </p>
                 </div>
                     <br />
-                    <p className='blathers'> - Blathers, Museum Director</p>
+                    <p id='blathers'> - Blathers, Museum Director</p>
             </div>
         </div>
     </MainLayout>

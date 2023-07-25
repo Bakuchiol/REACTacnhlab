@@ -1,4 +1,9 @@
+#fishInfoWrap{
+    background-color: #f8eebc;
+    padding-bottom: 250px;
+}
 #fishWrap{
+    background-color: #f8eebc;
     padding-top: 100px;
 }
 #fishData{
@@ -21,6 +26,6 @@
     margin-top: -100px;
     width: 500px;
 }
-.blathers {
+#blathers {
     font-weight: bold;
 }
