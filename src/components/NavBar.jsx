@@ -12,7 +12,7 @@ function NavBar() {
 
   return (
     <div id='navBar'>
-      <h1><Link to='/'>Critterpedia</Link></h1>
+      <h1 id='title'><Link to='/'>Critterpedia</Link></h1>
       
       <ul className='navUl'>
         <li>

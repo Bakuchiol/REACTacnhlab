@@ -7,7 +7,6 @@ function Home() {
   return (
     <MainLayout>
         <div id='homeWrap'>
-            <h1>*** HOME PAGE ***</h1>
             <HomePage />
         </div>
     </MainLayout>

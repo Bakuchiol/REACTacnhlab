@@ -11,9 +11,9 @@ import BugInfo from './pages/insect_data/BugInfo';
 // import SeaCreature from './components/SeaCreature';
 import SeaInfo from './pages/sea_creature_data/SeaInfo';
 import SeaList from './pages/sea_creature_data/SeaList';
-import HomePage from './components/HomePage';
+// import HomePage from './components/HomePage';
 // try
-import images from './models/images'
+// import images from './models/images'
 
 function App() {
   return (

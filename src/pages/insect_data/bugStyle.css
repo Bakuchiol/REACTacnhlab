@@ -1,3 +1,8 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap');
+/* fonts */
+/* font-family: 'Comic Neue', cursive; */
+
 #bugInfo {
     background-color: #f8eebc;
     padding-bottom: 200px;
@@ -15,6 +20,10 @@
     border: .5px solid lightslategray;
     width: 200px;
     height: 200px;
+}
+#bugCard:hover{
+    border: .5px solid rgb(40, 124, 227);
+    box-shadow: 0 3px 8px rgba(57, 63, 72, 0.3);
 }
 
 .blathers {
@@ -38,4 +47,9 @@
 #Blathers{
     /* border: solid black; */
     font-weight: bold;
+}
+#insectTitle{
+    font-family: 'Comic Neue', cursive;
+    font-size: 40px;
+    padding: 30px;
 }

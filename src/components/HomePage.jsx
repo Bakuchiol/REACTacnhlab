@@ -7,12 +7,22 @@ function HomePage(props) {
     {
       logo: 'https://assets.stickpng.com/images/5b4a216ec051e602a568cd7e.png',
       present: 'https://image.spreadshirtmedia.com/image-server/v1/designs/1030279079,width=178,height=178.png',
-      blathers: 'https://static.wikia.nocookie.net/animalcrossing/images/1/1b/Blathers_NH.png/revision/latest?cb=20200229053519'
+      blathers: 'https://cdn.custom-cursor.com/packs/2917/animal-crossing-blathers-and-book-pack.png'
     }
 
   return (
     <div id='homeComp'>
-      <p>HOME?</p>
+      <img src={images.logo} alt="logo" className='homeLogo'/>
+      <img src={images.present} alt="present" className='homePresent'/>
+      {/* <div className='blathersWrap'>
+        <div id='blathersBox'>
+            <div className='blathersSearch'>
+                <p>SEARH AREA HERE</p>
+            </div>
+            <img src={images.blathers} alt="" />
+        </div>
+      </div> */}
+      
     </div>
   )
 }

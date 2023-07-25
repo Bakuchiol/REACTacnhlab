@@ -1,8 +1,17 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap');
+/* fonts */
+/* font-family: 'Comic Neue', cursive; */
+
 #seaComp{
     border: .5px solid lightslategray;
     padding-top: 20px;
     width: 150px;
     height: 150px;
+}
+#seaComp:hover{
+    border: .5px solid rgb(40, 124, 227);
+    box-shadow: 0 3px 8px rgba(57, 63, 72, 0.3);
 }
 /* sea list */
 #seaWrapper{
@@ -14,6 +23,15 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+.seaTitle {
+    font-family: 'Comic Neue', cursive;
+    font-size: 40px;
+    padding: 30px;
+}
+a {
+    color: black;
+    font-weight: bold;
+}
 
 /* name */
 /* .seaCreature{
@@ -24,11 +42,9 @@
 } */
 
 #testWrap{
-    border: solid royalblue;
+    /* border: solid royalblue; */
     width: 150px;
     height: 150px;
     position: absolute;
     margin-top: -20px;
-}
-#testWrap:hover{
 }

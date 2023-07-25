@@ -20,6 +20,7 @@ function SeaList(props) {
   return (
     <MainLayout>
       <div id='seaWrapper'>
+      <h2 className='seaTitle'>Sea Creatures</h2>
         {SeaList.length ?
         <div id='seaCard'>
           {seaCreatures.map((sea) => {
