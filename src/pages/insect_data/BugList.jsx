@@ -21,7 +21,8 @@ function BugList(props) {
   return (
     <MainLayout>
       <div id='bugWrap'>
-      <h2 id='insectTitle'>Insect List</h2>
+      <h2 id='insectTitle'>Insects</h2>
+      <Link to='/butterflies'>BUTTERFLIES test</Link>
       {BugList.length ? 
           <div id='bugComp'>
           {bugs.map((bug) => {

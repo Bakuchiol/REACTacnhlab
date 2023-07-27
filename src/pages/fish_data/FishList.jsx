@@ -21,7 +21,7 @@ function FishList(props) {
   return (
     <MainLayout>
         <div id='fishWrap'>
-        <h2 id='fishTitle'>Fish List</h2>
+        <h2 id='fishTitle'>Fish</h2>
             {Fish.length ?
                 <div id='fishData'>
                     {fishes.map((fish) =>{

@@ -11,6 +11,7 @@ import BugInfo from './pages/insect_data/BugInfo';
 // import SeaCreature from './components/SeaCreature';
 import SeaInfo from './pages/sea_creature_data/SeaInfo';
 import SeaList from './pages/sea_creature_data/SeaList';
+import Butterflies from './pages/insect_data/Butterflies';
 // import HomePage from './components/HomePage';
 // try
 // import images from './models/images'
@@ -22,6 +23,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/insect-list' element={<BugList />}/>
         <Route path='/insect-info' element={<BugInfo />}/>
+        <Route path='/butterflies' element={<Butterflies />} />
         <Route path='/fish-list' element={<FishList />}/>
         <Route path='/fish-info' element={<FishInfo />}/>
         <Route path='/sea-creatures-list' element={<SeaList />}/>
